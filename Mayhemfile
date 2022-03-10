@@ -1,0 +1,12 @@
+# Mayhemfile version specifier
+version: '1.17'
+
+# List of commands used to test the target
+cmds:
+
+  # Command used to start the target, "@@" is the input file
+  # (when "@@" is omitted Mayhem defaults to stdin inputs)
+  - cmd: /qoifuzz
+    libfuzzer: true
+    sanitizer: true
+
