@@ -1,6 +1,9 @@
 # Mayhemfile version specifier
 version: '1.17'
 
+project: qoi
+target: qoi
+
 # List of commands used to test the target
 cmds:
 
